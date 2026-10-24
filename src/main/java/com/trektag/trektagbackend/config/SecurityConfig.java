@@ -67,7 +67,8 @@ public class SecurityConfig {
 
         configuration.setAllowedOrigins(List.of(
             "http://localhost:5173",
-            "http://localhost:5174"
+            "http://localhost:5174",
+            "https://trek-tag-frontend.onrender.com"
         ));
 
         configuration.setAllowedMethods(List.of(
